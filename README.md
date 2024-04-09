@@ -1,0 +1,1 @@
+# API-OpenWeather-Temperatura
