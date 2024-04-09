@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Previsão do Tempo</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<div class="container">
+        <h1>Previsão do Tempo</h1>
+        <div class="form-group">
+            <label for="nome_cidade">Cidade:</label>
+            <input type="text" name="nome_cidade" id="nome_cidade" placeholder="Digite a cidade">
+
+            <label for="nome_estado">Estado:</label>
+            <input type="text" name="nome_estado" id="nome_estado" placeholder="Digite o estado">
+
+            <label for="nome_pais">País:</label>
+            <input type="text" name="nome_pais" id="nome_pais" placeholder="Digite o país">
+            <button id="chamar" onclick="chamarServicoGeoconding()">BUSCAR</button>
+        </div>
+        <div id="temperatura"></div>
+        <div id="nuvens"></div>
+    </div>
+</body>
+
+</html>

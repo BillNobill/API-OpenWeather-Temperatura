@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.9px);
+-webkit-backdrop-filter: blur(7.9px);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff00;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  background: rgba(255, 255, 255, 0.27);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.9px);
+-webkit-backdrop-filter: blur(7.9px);
+}
+
+input[type="text"]:focus {
+    outline: none;
+  }
+
+::-webkit-input-placeholder {
+    color: rgb(233, 233, 233);
+  }
+  
+
+#chamar {
+    font-size: 17px;
+  margin-top: 20px;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#chamar:hover {
+  background-color: #0056b3;
+}
+
+#chamar:focus {
+  outline: none;
+}
+
+#visibilidade {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  font-size: 13px;
+  width: 100%;
+}
+
+#visibilidade:hover {
+  color: #0056b3;
+}
+
+#temperatura{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#nuvens{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
