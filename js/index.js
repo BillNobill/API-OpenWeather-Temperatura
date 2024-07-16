@@ -1,4 +1,4 @@
-let apiKey = "ef481c7b4f97d64488f89435bcd1aeb0";
+let apiKey = "API_KEY";
 let lat = 0;
 let lon = 0;
 
