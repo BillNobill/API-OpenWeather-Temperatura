@@ -1,3 +1,12 @@
-# API-OpenWeather-Temperatura
+# api-openweather-temperatura
 
-Projeto desenvolvido para verificação de temperatura e outros fatores meteorológiocos da cidade solicitade via API do OpenWeather.
+Consumo da API OpenWeather para exibi├º├úo de temperatura e condi├º├Áes clim├íticas.
+
+## 🛠️ Tecnologias
+`api`, `clima`, `javascript`, `openweather`, `temperatura`
+
+## 🚀 Uso
+Instruções básicas de uso para este projeto.
+
+## 📄 License
+Este projeto está licenciado sob a licença MIT.
